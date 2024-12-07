@@ -103,3 +103,15 @@ The trained model and application are deployed using **Streamlit** for:
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/aggregating-news-articles.git
+2. Navigate to the project directory:
+   ```bash
+   cd aggregating-news-articles
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+4. Run the Streamlit application:
+   ```bash
+   streamlit run app.py
+
+
+
