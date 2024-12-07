@@ -8,7 +8,6 @@ This repository contains the implementation of a project aimed at **classifying 
 ---
 
 ## Dataset
-![Dataset Overview](images/dataset_overview.png "Dataset Overview")
 
 We used the **BBC News Classification** dataset from Kaggle:
 - **Number of Records**: 2,127 articles.
@@ -25,7 +24,7 @@ We used the **BBC News Classification** dataset from Kaggle:
 
 ## Key Insights
 ### Complexity and Readability by Topic
-![Insights Chart](images/complexity_vs_readability.png "Complexity vs Readability")
+![Insights Chart](image/flesch_reading.jpg "Complexity vs Readability")
 
 - Articles in **Politics** and **Business** are more complex, while **Sports** articles are simpler and score higher on readability.
 - Shorter articles are often more readable, while longer articles require more complex summarization.
@@ -34,14 +33,7 @@ We used the **BBC News Classification** dataset from Kaggle:
 
 ## Machine Learning Models
 ### Accuracy Comparison
-![Model Accuracy](images/model_accuracy.png "Model Accuracy")
-
-| Model                      | Accuracy   | Key Features                                                                 |
-|----------------------------|------------|------------------------------------------------------------------------------|
-| **Logistic Regression**    | 97.25%     | Generalizes well; signs of continued improvement beyond training data.       |
-| **Random Forest**          | 97.90%     | Low bias and variance; good generalization to unseen data.                   |
-| **Support Vector Machine** | 97.25%     | Low bias and variance; generalizes well and remains stable.                  |
-| **SVM with PCA**           | 96.28%     | Hyperparameter tuning; lowest variance and bias; stable performance.         |
+![Model Accuracy](image/output.png "Model Accuracy")
 
 ---
 
