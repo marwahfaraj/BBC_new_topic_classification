@@ -71,7 +71,7 @@ Key highlights:
 ### Streamlit Application
 Click the image below to watch the demo video:
 
-[![Watch the video](image/images.png)](assets/demo_video.mp4)
+[![Watch the video](image/images.png)](assets/app_demo.mp4)
 
 The trained model and application are deployed using **Streamlit** for:
 - Instant classification of newly uploaded data.
