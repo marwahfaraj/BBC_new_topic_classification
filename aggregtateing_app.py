@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 vectorizer = joblib.load("vectorizer.pkl")
 pca = joblib.load("pca.pkl")
 svc = joblib.load("svm_model.pkl")
-test_set = pd.read_csv("test_set.csv")  # Pre-saved test set for consistent accuracy
+# test_set = pd.read_csv("test_set.csv")  # Pre-saved test set for consistent accuracy
 
 # Preprocessing function
 def clean_text_column(df, column_name):
@@ -31,7 +31,7 @@ st.title("News Aggregation and Filtering Tool")
 
 # Display the image and team credit
 st.image(
-    "/Users/marwahfaraj/Desktop/ms_degree_application_and_doc/final_projects/502_final_project/BBC_new_topic_classification/ML2.jpg",  # Replace with your image path
+    "image/ML2.jpg",  # Replace with your image path
     use_column_width=True,
 )
 
